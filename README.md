@@ -24,8 +24,8 @@ In you virtual environment run:
 
 > python3 train_model.py --n_ahead 1 --dayhour 12 --model LGBM
 
- - n_ahead (int): indicates the number of hours ahead. (0, ...)
- - dayhour (int): specifies the hour of the day for which the predictions are made. (0, ..., 24)
+ - n_ahead (int): indicates the number of hours ahead. (1, ...)
+ - dayhour (int): specifies the hour of the day for which the predictions are made. (0, ..., 23)
  - model (str): name of the model, either LGBM or Lasso.
 
 ## Output
